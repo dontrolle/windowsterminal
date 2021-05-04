@@ -1,2 +1,2 @@
 # windowsterminal
-My windows terminal settings
+My Windows Terminal settings.
