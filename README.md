@@ -17,10 +17,10 @@ The `settings.json` file assumes that the given Nerd font is installed. If not, 
 ### settings.json
 
 Clone, and do one of the following:
-* 1. Setup a hardlink to the directory where Terminal looks for its config file, or 
-* 2. Manually copy the `settings.json` file to the directory where Terminal looks for its config file.
 
 #### 1. Setup hardlink to Terminal config settings file
+
+Setup a hardlink to the directory where Terminal looks for its config file:
 
 * `git clone` repo - in the following, we assume cloned into `C:\src\windowsterminal`
 * Locate current `settings.json` in `[user-dir]\AppData\Local\Packages\Microsoft.WindowsTerminal[...]\LocalState`
@@ -34,6 +34,8 @@ mklink /H [user-dir]\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_[so
 * Open Terminal, and check that it loads the profile without error
 
 #### 2. Manual deploy of settings.json
+
+Manually copy the `settings.json` file to the directory where Terminal looks for its config file.
 
 * `git clone` repo
 * Locate current `settings.json` in `[user-dir]\AppData\Local\Packages\Microsoft.WindowsTerminal[...]\LocalState`
