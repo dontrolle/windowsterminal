@@ -16,7 +16,7 @@ The `settings.json` file assumes that the given Nerd font is installed. If not, 
 
 ### settings.json
 
-### Setup hardlin#k to Terminal config settings location
+#### Setup hardlink to Terminal config settings location
 
 * `git clone` repo - in the following, we assume cloned into `C:\src\windowsterminal`
 * Locate current `settings.json` in `[user-dir]\AppData\Local\Packages\Microsoft.WindowsTerminal[...]\LocalState`
