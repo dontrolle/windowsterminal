@@ -33,6 +33,8 @@ mklink /H [user-dir]\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_[so
 
 * Open Terminal, and check that it loads the profile without error
 
+(Note - as of Oct. 2021, have seen cases, where WindowsTerminal overwrites the settings.json file, reverting that it's a hardlink. ... To fix.)
+
 #### 2. Manual deploy of settings.json
 
 Manually copy the `settings.json` file to the directory where Terminal looks for its config file.
