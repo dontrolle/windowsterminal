@@ -44,7 +44,7 @@
         [
             {
                 "backgroundImage": "C:\\Users\\dontr\\Pictures\\ltotbngnzzu.jpg",
-                "backgroundImageOpacity": 0.5,
+                "backgroundImageOpacity": 0.4,
                 "commandline": "powershell.exe",
                 "font": 
                 {
