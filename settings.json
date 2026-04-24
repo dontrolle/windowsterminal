@@ -48,7 +48,8 @@
                 "commandline": "powershell.exe",
                 "font": 
                 {
-                    "size": 11
+                    "size": 10
+                    
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
